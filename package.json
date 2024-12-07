@@ -1,0 +1,36 @@
+{
+  "name": "my-react-router-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc",
+    "server": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.0.2",
+    "@react-router/serve": "^7.0.2",
+    "isbot": "^5.1.17",
+    "json-server": "^1.0.0-beta.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-router": "^7.0.2",
+    "react-toastify": "^10.0.6",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.0.2",
+    "@types/node": "^20",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.2"
+  }
+}
